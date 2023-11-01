@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982437A32AD0392100EA26AD /* ConfirmPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982437A22AD0392100EA26AD /* ConfirmPageVC.swift */; };
+		98874B0E2AD564850018000E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98874B0D2AD564850018000E /* UIColorExtension.swift */; };
+		988FFA292AD01BC700471607 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FFA282AD01BC700471607 /* PaymentVC.swift */; };
 		98F1D6912ACC36340017F2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6902ACC36340017F2B0 /* AppDelegate.swift */; };
 		98F1D6932ACC36340017F2B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6922ACC36340017F2B0 /* SceneDelegate.swift */; };
 		98F1D6952ACC36340017F2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6942ACC36340017F2B0 /* ViewController.swift */; };
 		98F1D6982ACC36340017F2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F1D6962ACC36340017F2B0 /* Main.storyboard */; };
 		98F1D69A2ACC36360017F2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F1D6992ACC36360017F2B0 /* Assets.xcassets */; };
 		98F1D69D2ACC36360017F2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F1D69B2ACC36360017F2B0 /* LaunchScreen.storyboard */; };
+		98F1D6A52ACC463E0017F2B0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6A42ACC463E0017F2B0 /* UIView+Extension.swift */; };
+		98F1D6A72ACC49060017F2B0 /* ShoesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6A62ACC49060017F2B0 /* ShoesVC.swift */; };
+		98F1D6A92ACC508F0017F2B0 /* ShoesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F1D6A82ACC508F0017F2B0 /* ShoesCollection.swift */; };
+		98F792302AD4182400D01918 /* confetti.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98F7922F2AD4182400D01918 /* confetti.gif */; };
+		98FDF93D2ACD6A4E002D15CE /* AddToCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDF93C2ACD6A4E002D15CE /* AddToCart.swift */; };
+		98FDF93F2ACD82DF002D15CE /* CartTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDF93E2ACD82DF002D15CE /* CartTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982437A22AD0392100EA26AD /* ConfirmPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPageVC.swift; sourceTree = "<group>"; };
+		98874B0D2AD564850018000E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		988FFA282AD01BC700471607 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		98F1D68D2ACC36340017F2B0 /* SummerShoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerShoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F1D6902ACC36340017F2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F1D6922ACC36340017F2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		98F1D6992ACC36360017F2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F1D69C2ACC36360017F2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F1D69E2ACC36360017F2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F1D6A42ACC463E0017F2B0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		98F1D6A62ACC49060017F2B0 /* ShoesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesVC.swift; sourceTree = "<group>"; };
+		98F1D6A82ACC508F0017F2B0 /* ShoesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesCollection.swift; sourceTree = "<group>"; };
+		98F7922F2AD4182400D01918 /* confetti.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = confetti.gif; sourceTree = "<group>"; };
+		98FDF93C2ACD6A4E002D15CE /* AddToCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCart.swift; sourceTree = "<group>"; };
+		98FDF93E2ACD82DF002D15CE /* CartTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,20 @@
 			children = (
 				98F1D6902ACC36340017F2B0 /* AppDelegate.swift */,
 				98F1D6922ACC36340017F2B0 /* SceneDelegate.swift */,
+				98F1D6A42ACC463E0017F2B0 /* UIView+Extension.swift */,
+				98874B0D2AD564850018000E /* UIColorExtension.swift */,
 				98F1D6942ACC36340017F2B0 /* ViewController.swift */,
+				98F1D6A82ACC508F0017F2B0 /* ShoesCollection.swift */,
+				98F1D6A62ACC49060017F2B0 /* ShoesVC.swift */,
+				98FDF93C2ACD6A4E002D15CE /* AddToCart.swift */,
+				98FDF93E2ACD82DF002D15CE /* CartTVC.swift */,
+				988FFA282AD01BC700471607 /* PaymentVC.swift */,
+				982437A22AD0392100EA26AD /* ConfirmPageVC.swift */,
 				98F1D6962ACC36340017F2B0 /* Main.storyboard */,
 				98F1D6992ACC36360017F2B0 /* Assets.xcassets */,
 				98F1D69B2ACC36360017F2B0 /* LaunchScreen.storyboard */,
 				98F1D69E2ACC36360017F2B0 /* Info.plist */,
+				98F7922F2AD4182400D01918 /* confetti.gif */,
 			);
 			path = SummerShoes;
 			sourceTree = "<group>";
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F792302AD4182400D01918 /* confetti.gif in Resources */,
 				98F1D69D2ACC36360017F2B0 /* LaunchScreen.storyboard in Resources */,
 				98F1D69A2ACC36360017F2B0 /* Assets.xcassets in Resources */,
 				98F1D6982ACC36340017F2B0 /* Main.storyboard in Resources */,
@@ -138,9 +166,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F1D6A92ACC508F0017F2B0 /* ShoesCollection.swift in Sources */,
 				98F1D6952ACC36340017F2B0 /* ViewController.swift in Sources */,
+				98F1D6A72ACC49060017F2B0 /* ShoesVC.swift in Sources */,
 				98F1D6912ACC36340017F2B0 /* AppDelegate.swift in Sources */,
+				982437A32AD0392100EA26AD /* ConfirmPageVC.swift in Sources */,
+				988FFA292AD01BC700471607 /* PaymentVC.swift in Sources */,
+				98FDF93D2ACD6A4E002D15CE /* AddToCart.swift in Sources */,
+				98F1D6A52ACC463E0017F2B0 /* UIView+Extension.swift in Sources */,
+				98874B0E2AD564850018000E /* UIColorExtension.swift in Sources */,
 				98F1D6932ACC36340017F2B0 /* SceneDelegate.swift in Sources */,
+				98FDF93F2ACD82DF002D15CE /* CartTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
